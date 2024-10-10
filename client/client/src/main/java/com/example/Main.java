@@ -21,6 +21,7 @@ public class Main {
 
         do{
             System.out.println("client partito");
+            System.out.println("inserire una stringa('exit' ti fa uscire dall'inserimento)");
             tastiera = sc.nextLine();
             if(tastiera.equals("exit")){
                 out.writeBytes("!" + '\n');
